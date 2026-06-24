@@ -1,0 +1,276 @@
+{
+  "setId": "rj1-enterprise-lowpoly-v1",
+  "status": "validated-rectangular-big-world-visual-pass",
+  "manifestValid": true,
+  "glbValidation": "passed",
+  "generatedAt": "2026-05-30",
+  "validator": "/Users/workwork/.codex/skills/gltf-asset-pipeline/scripts/validate_glb.mjs",
+  "glbAssets": [
+    {
+      "id": "agent-props/ai-agent",
+      "file": "glb/agent-props/ai-agent.glb",
+      "sizeBytes": 117504,
+      "nodes": 17,
+      "meshes": 16,
+      "vertices": 2435,
+      "trianglesEstimated": 3580,
+      "warnings": []
+    },
+    {
+      "id": "agent-props/inspection-drone",
+      "file": "glb/agent-props/inspection-drone.glb",
+      "sizeBytes": 66988,
+      "nodes": 9,
+      "meshes": 8,
+      "vertices": 1372,
+      "trianglesEstimated": 2288,
+      "warnings": []
+    },
+    {
+      "id": "agent-props/operator-human",
+      "file": "glb/agent-props/operator-human.glb",
+      "sizeBytes": 80228,
+      "nodes": 12,
+      "meshes": 11,
+      "vertices": 1656,
+      "trianglesEstimated": 2212,
+      "warnings": []
+    },
+    {
+      "id": "big-map/rj-big-world-map",
+      "file": "glb/big-map/rj-big-world-map.glb",
+      "sizeBytes": 386404,
+      "nodes": 110,
+      "meshes": 100,
+      "vertices": 7474,
+      "trianglesEstimated": 6904,
+      "warnings": []
+    },
+    {
+      "id": "building/control-module",
+      "file": "glb/building/control-module.glb",
+      "sizeBytes": 70316,
+      "nodes": 14,
+      "meshes": 13,
+      "vertices": 1355,
+      "trianglesEstimated": 2064,
+      "warnings": []
+    },
+    {
+      "id": "building/factory-module",
+      "file": "glb/building/factory-module.glb",
+      "sizeBytes": 75944,
+      "nodes": 25,
+      "meshes": 23,
+      "vertices": 1400,
+      "trianglesEstimated": 852,
+      "warnings": []
+    },
+    {
+      "id": "building/hq-command-tower",
+      "file": "glb/building/hq-command-tower.glb",
+      "sizeBytes": 52632,
+      "nodes": 22,
+      "meshes": 21,
+      "vertices": 847,
+      "trianglesEstimated": 468,
+      "warnings": []
+    },
+    {
+      "id": "building/office-module",
+      "file": "glb/building/office-module.glb",
+      "sizeBytes": 29512,
+      "nodes": 16,
+      "meshes": 15,
+      "vertices": 360,
+      "trianglesEstimated": 180,
+      "warnings": []
+    },
+    {
+      "id": "building/outpost-module",
+      "file": "glb/building/outpost-module.glb",
+      "sizeBytes": 114188,
+      "nodes": 28,
+      "meshes": 25,
+      "vertices": 2172,
+      "trianglesEstimated": 2760,
+      "warnings": []
+    },
+    {
+      "id": "building/solar-module",
+      "file": "glb/building/solar-module.glb",
+      "sizeBytes": 85520,
+      "nodes": 44,
+      "meshes": 43,
+      "vertices": 1072,
+      "trianglesEstimated": 544,
+      "warnings": []
+    },
+    {
+      "id": "building/storage-module",
+      "file": "glb/building/storage-module.glb",
+      "sizeBytes": 72260,
+      "nodes": 39,
+      "meshes": 38,
+      "vertices": 912,
+      "trianglesEstimated": 456,
+      "warnings": []
+    },
+    {
+      "id": "building/tower-module",
+      "file": "glb/building/tower-module.glb",
+      "sizeBytes": 122712,
+      "nodes": 10,
+      "meshes": 9,
+      "vertices": 2709,
+      "trianglesEstimated": 4180,
+      "warnings": []
+    },
+    {
+      "id": "infrastructure/inspection-service-kit",
+      "file": "glb/infrastructure/inspection-service-kit.glb",
+      "sizeBytes": 138504,
+      "nodes": 25,
+      "meshes": 22,
+      "vertices": 2791,
+      "trianglesEstimated": 3992,
+      "warnings": []
+    },
+    {
+      "id": "interior/control-room",
+      "file": "glb/interior/control-room.glb",
+      "sizeBytes": 294844,
+      "nodes": 73,
+      "meshes": 72,
+      "vertices": 5599,
+      "trianglesEstimated": 6780,
+      "warnings": []
+    },
+    {
+      "id": "interior/factory-bay",
+      "file": "glb/interior/factory-bay.glb",
+      "sizeBytes": 144880,
+      "nodes": 60,
+      "meshes": 58,
+      "vertices": 2364,
+      "trianglesEstimated": 1356,
+      "warnings": []
+    },
+    {
+      "id": "interior/hq-floor",
+      "file": "glb/interior/hq-floor.glb",
+      "sizeBytes": 228576,
+      "nodes": 63,
+      "meshes": 62,
+      "vertices": 4254,
+      "trianglesEstimated": 4764,
+      "warnings": []
+    },
+    {
+      "id": "interior/office-floor",
+      "file": "glb/interior/office-floor.glb",
+      "sizeBytes": 128576,
+      "nodes": 70,
+      "meshes": 69,
+      "vertices": 1656,
+      "trianglesEstimated": 828,
+      "warnings": []
+    },
+    {
+      "id": "interior/outpost-dispatch",
+      "file": "glb/interior/outpost-dispatch.glb",
+      "sizeBytes": 261872,
+      "nodes": 58,
+      "meshes": 55,
+      "vertices": 5130,
+      "trianglesEstimated": 6532,
+      "warnings": []
+    },
+    {
+      "id": "interior/solar-control-room",
+      "file": "glb/interior/solar-control-room.glb",
+      "sizeBytes": 166420,
+      "nodes": 53,
+      "meshes": 52,
+      "vertices": 2923,
+      "trianglesEstimated": 2956,
+      "warnings": []
+    },
+    {
+      "id": "interior/storage-room",
+      "file": "glb/interior/storage-room.glb",
+      "sizeBytes": 112704,
+      "nodes": 61,
+      "meshes": 60,
+      "vertices": 1440,
+      "trianglesEstimated": 720,
+      "warnings": []
+    },
+    {
+      "id": "interior/tower-floor",
+      "file": "glb/interior/tower-floor.glb",
+      "sizeBytes": 276008,
+      "nodes": 55,
+      "meshes": 54,
+      "vertices": 5501,
+      "trianglesEstimated": 7296,
+      "warnings": []
+    },
+    {
+      "id": "landmark/ai-tower-landmark",
+      "file": "glb/landmark/ai-tower-landmark.glb",
+      "sizeBytes": 196248,
+      "nodes": 26,
+      "meshes": 24,
+      "vertices": 4117,
+      "trianglesEstimated": 6312,
+      "warnings": []
+    },
+    {
+      "id": "landmark/field-service-landmark",
+      "file": "glb/landmark/field-service-landmark.glb",
+      "sizeBytes": 145824,
+      "nodes": 31,
+      "meshes": 28,
+      "vertices": 2847,
+      "trianglesEstimated": 3904,
+      "warnings": []
+    },
+    {
+      "id": "landmark/power-factory-landmark",
+      "file": "glb/landmark/power-factory-landmark.glb",
+      "sizeBytes": 88544,
+      "nodes": 31,
+      "meshes": 29,
+      "vertices": 1580,
+      "trianglesEstimated": 952,
+      "warnings": []
+    },
+    {
+      "id": "landmark/solar-operations-landmark",
+      "file": "glb/landmark/solar-operations-landmark.glb",
+      "sizeBytes": 126620,
+      "nodes": 40,
+      "meshes": 38,
+      "vertices": 2132,
+      "trianglesEstimated": 2676,
+      "warnings": []
+    },
+    {
+      "id": "landmark/storage-microgrid-landmark",
+      "file": "glb/landmark/storage-microgrid-landmark.glb",
+      "sizeBytes": 109272,
+      "nodes": 44,
+      "meshes": 42,
+      "vertices": 1804,
+      "trianglesEstimated": 1044,
+      "warnings": []
+    }
+  ],
+  "frontendPreview": "Use the RJ-1 SvelteKit app at http://127.0.0.1:4173/",
+  "notes": [
+    "All 26 GLB files passed validation with no warnings after the Big World visual pass.",
+    "Big World pilot and landmark bases now use enterprise service pads, data rails, and corridors instead of ambiguous status circles.",
+    "The active frontend loads these GLBs from static/assets/sets/rj1-enterprise-lowpoly-v1/glb."
+  ]
+}

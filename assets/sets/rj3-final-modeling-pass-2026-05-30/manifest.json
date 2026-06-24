@@ -1,0 +1,66 @@
+{
+  "assetSet": "rj3-final-modeling-pass-2026-05-30",
+  "status": "modeled-pilot-plus-power-generated",
+  "generatedAt": "2026-05-30T15:44:12.237Z",
+  "purpose": "Final-modeling pass for replacing RJ-3 candidate/procedural assets with self-authored final-asset candidates after the initial three-asset pilot validation.",
+  "targetEngines": [
+    "Three.js",
+    "Babylon.js"
+  ],
+  "sourceScript": "source/generate-final-pilots.mjs",
+  "completionDiscipline": "These assets can become accepted-final only after GLB validation, Browser screenshot review, and explicit final-category promotion with proof fields.",
+  "assets": [
+    {
+      "category": "hero-hq-building",
+      "label": "RJ-3 final-modeled hero HQ building",
+      "file": "glb/hero-hq-building/rj3-final-hero-hq-building.glb",
+      "bytes": 6040000,
+      "status": "modeled-pilot-candidate",
+      "provenance": "source/generate-final-pilots.mjs",
+      "license": "self-authored project asset; internal reuse allowed",
+      "notes": [
+        "Standalone modern HQ with individual windows, command atrium cutaway, roof systems, vehicles, drone, landscaping, status anchors.",
+        "Self-authored procedural model for an internal final-asset pilot; no third-party mesh content."
+      ]
+    },
+    {
+      "category": "solar-grid-package",
+      "label": "RJ-3 final-modeled solar grid and substation package",
+      "file": "glb/solar-grid-package/rj3-final-solar-grid-package.glb",
+      "bytes": 3938052,
+      "status": "modeled-pilot-candidate",
+      "provenance": "source/generate-final-pilots.mjs",
+      "license": "self-authored project asset; internal reuse allowed",
+      "notes": [
+        "Dense PV rows, inverter skids, transformer yard, bus gantries, battery containers, maintenance truck, inspection drone, and data arcs.",
+        "Self-authored procedural model for an internal final-asset pilot; no third-party mesh content."
+      ]
+    },
+    {
+      "category": "command-room-interior",
+      "label": "RJ-3 final-modeled command room interior",
+      "file": "glb/command-room-interior/rj3-final-command-room-interior.glb",
+      "bytes": 4371772,
+      "status": "modeled-pilot-candidate",
+      "provenance": "source/generate-final-pilots.mjs",
+      "license": "self-authored project asset; internal reuse allowed",
+      "notes": [
+        "Separate inside render with curved video wall, operator stations, command table, floor rings, staff, glass side walls, and status anchors.",
+        "Self-authored procedural model for an internal final-asset pilot; no third-party mesh content."
+      ]
+    },
+    {
+      "category": "power-station",
+      "label": "RJ-3 final-modeled power station",
+      "file": "glb/power-station/rj3-final-power-station.glb",
+      "bytes": 3064652,
+      "status": "modeled-pilot-candidate",
+      "provenance": "source/generate-final-pilots.mjs",
+      "license": "self-authored project asset; internal reuse allowed",
+      "notes": [
+        "Industrial generation asset with turbine hall, control annex, stacks, cooling towers, tank farm, high-voltage yard, utility pipes, crew vehicle, drone, and status anchors.",
+        "Generated after the three-asset pilot passed validation; self-authored procedural model with no third-party mesh content."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RJ-1 Asset Set Preview</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Inter, Arial, sans-serif;
+        background: #061018;
+        color: #ecfbff;
+        display: grid;
+        place-items: center;
+      }
+      main {
+        max-width: 920px;
+        padding: 32px;
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-size: 28px;
+      }
+      p {
+        color: rgba(236, 251, 255, 0.72);
+        line-height: 1.6;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .card {
+        border: 1px solid rgba(51, 216, 255, 0.24);
+        background: rgba(8, 22, 32, 0.82);
+        border-radius: 8px;
+        padding: 16px;
+      }
+      .tag {
+        color: #33d8ff;
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="tag">RunJian simWorld Asset Set</div>
+      <h1>RJ-1 Enterprise Low-Poly Digital Twin</h1>
+      <p>
+        This preview page documents the GLB-ready asset set. The active visual preview is the RJ-1
+        SvelteKit app at the project root, which currently renders these assets procedurally.
+      </p>
+      <div class="grid">
+        <div class="card"><div class="tag">Big Map</div><p>Floating operations map with six landmarks.</p></div>
+        <div class="card"><div class="tag">Area Maps</div><p>HQ, solar, power, field, AI tower, and storage scenes.</p></div>
+        <div class="card"><div class="tag">Interiors</div><p>Control rooms, office floors, dispatch rooms, and factory bays.</p></div>
+        <div class="card"><div class="tag">Agents</div><p>AI agents, human-like operators, drones, vehicles, and maintenance props.</p></div>
+      </div>
+    </main>
+  </body>
+</html>

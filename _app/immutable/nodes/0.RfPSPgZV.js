@@ -1,0 +1,1 @@
+import{x as a,O as n,aj as l,t as s}from"../chunks/CWsBKNyM.js";import"../chunks/Cstooz_s.js";const p=!0,i=Object.freeze(Object.defineProperty({__proto__:null,prerender:p},Symbol.toStringTag,{value:"Module"}));function m(t,o){var e=a(),r=n(e);l(r,o,"default",{}),s(t,e)}export{m as component,i as universal};

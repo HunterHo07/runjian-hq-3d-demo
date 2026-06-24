@@ -1,0 +1,306 @@
+{
+  "setId": "rj1-enterprise-lowpoly-v1",
+  "name": "RunJian RJ-1 Enterprise Low-Poly Digital Twin",
+  "status": "big-world-landmarks-buildings-crews-and-interiors-integrated",
+  "style": {
+    "keywords": [
+      "bright low-poly enterprise world",
+      "clean white buildings",
+      "blue glass",
+      "cyan and gold energy accents",
+      "dense campus composition",
+      "Q-style AI operators"
+    ],
+    "avoid": [
+      "toy placeholder blocks",
+      "empty slabs",
+      "fantasy sci-fi city",
+      "over-realistic CAD complexity"
+    ]
+  },
+  "assets": [
+    {
+      "id": "big-map/rj-big-world-map",
+      "type": "big-map",
+      "plannedGlb": "glb/big-map/rj-big-world-map.glb",
+      "glbPath": "glb/big-map/rj-big-world-map.glb",
+      "status": "validated-pilot",
+      "frontendSource": "procedural:createBigWorldScene",
+      "notes": "Floating operations map with HQ center, six landmarks, roads, coastline, route packets, masts, service vehicles, and drones."
+    },
+    {
+      "id": "building/hq-command-tower",
+      "type": "building",
+      "plannedGlb": "glb/building/hq-command-tower.glb",
+      "glbPath": "glb/building/hq-command-tower.glb",
+      "status": "validated-integrated",
+      "frontendSource": "procedural:addHqTower/addPremiumLandmark",
+      "notes": "Hero command tower pilot with stepped podium, blue-glass massing, antenna mast, roof halo, and cyan/gold enterprise accents."
+    },
+    {
+      "id": "building/office-module",
+      "type": "building",
+      "plannedGlb": "glb/building/office-module.glb",
+      "glbPath": "glb/building/office-module.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createAreaBuildingModel(kind=office)",
+      "notes": "Reusable area-map office module with glass office body, white wing, roof cap, window bands, canopy, and roof solar strips."
+    },
+    {
+      "id": "building/factory-module",
+      "type": "building",
+      "plannedGlb": "glb/building/factory-module.glb",
+      "glbPath": "glb/building/factory-module.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createAreaBuildingModel(kind=factory)",
+      "notes": "Reusable generator/factory module with equipment hall, dark roof, control glow wall, roof stacks, and service truck."
+    },
+    {
+      "id": "building/tower-module",
+      "type": "building",
+      "plannedGlb": "glb/building/tower-module.glb",
+      "glbPath": "glb/building/tower-module.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createAreaBuildingModel(kind=tower)",
+      "notes": "Reusable tower module with glass core, command rings, beacon cap, and side equipment pod."
+    },
+    {
+      "id": "building/outpost-module",
+      "type": "building",
+      "plannedGlb": "glb/building/outpost-module.glb",
+      "glbPath": "glb/building/outpost-module.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createAreaBuildingModel(kind=outpost)",
+      "notes": "Reusable outpost module with ready room, dispatch glass, vehicle bay canopy, rover, mast, and standby drone."
+    },
+    {
+      "id": "building/control-module",
+      "type": "building",
+      "plannedGlb": "glb/building/control-module.glb",
+      "glbPath": "glb/building/control-module.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createAreaBuildingModel(kind=control)",
+      "notes": "Reusable control-center module with command block, tactical wall, model room, decision ring, and window bands."
+    },
+    {
+      "id": "building/storage-module",
+      "type": "building",
+      "plannedGlb": "glb/building/storage-module.glb",
+      "glbPath": "glb/building/storage-module.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createAreaBuildingModel(kind=storage)",
+      "notes": "Reusable storage module with battery container rows, status lights, and microgrid control room."
+    },
+    {
+      "id": "building/solar-module",
+      "type": "building",
+      "plannedGlb": "glb/building/solar-module.glb",
+      "glbPath": "glb/building/solar-module.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createAreaBuildingModel(kind=solar)",
+      "notes": "Reusable solar building module with PV panel field, inverter control building, met mast, and status wall."
+    },
+    {
+      "id": "landmark/solar-operations-landmark",
+      "type": "landmark",
+      "plannedGlb": "glb/landmark/solar-operations-landmark.glb",
+      "glbPath": "glb/landmark/solar-operations-landmark.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createBigWorldScene(area-2-solar-operations)",
+      "notes": "Clickable Big World solar landmark with PV rows, inverter hall, met mast, and inspection drone."
+    },
+    {
+      "id": "landmark/power-factory-landmark",
+      "type": "landmark",
+      "plannedGlb": "glb/landmark/power-factory-landmark.glb",
+      "glbPath": "glb/landmark/power-factory-landmark.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createBigWorldScene(area-3-power-factory)",
+      "notes": "Clickable Big World power factory landmark with generator hall, transformer bank, pylons, busbars, and service vehicle."
+    },
+    {
+      "id": "landmark/field-service-landmark",
+      "type": "landmark",
+      "plannedGlb": "glb/landmark/field-service-landmark.glb",
+      "glbPath": "glb/landmark/field-service-landmark.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createBigWorldScene(area-4-field-service)",
+      "notes": "Clickable Big World field service landmark with outpost module, dispatch glass, vehicle bay, radio mast, drone pad, and rover."
+    },
+    {
+      "id": "landmark/ai-tower-landmark",
+      "type": "landmark",
+      "plannedGlb": "glb/landmark/ai-tower-landmark.glb",
+      "glbPath": "glb/landmark/ai-tower-landmark.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createBigWorldScene(area-5-ai-tower)",
+      "notes": "Clickable Big World AI tower landmark with command tower core, model lab, drone room, inference ring, and sky crown."
+    },
+    {
+      "id": "landmark/storage-microgrid-landmark",
+      "type": "landmark",
+      "plannedGlb": "glb/landmark/storage-microgrid-landmark.glb",
+      "glbPath": "glb/landmark/storage-microgrid-landmark.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createBigWorldScene(area-6-storage-microgrid)",
+      "notes": "Clickable Big World storage landmark with battery racks, microgrid control shelter, cooling fans, and service cart."
+    },
+    {
+      "id": "infrastructure/inspection-service-kit",
+      "type": "infrastructure",
+      "plannedGlb": "glb/infrastructure/inspection-service-kit.glb",
+      "glbPath": "glb/infrastructure/inspection-service-kit.glb",
+      "status": "validated-pilot",
+      "frontendSource": "procedural:addServiceVehicle/addInspectionDrone/addSubstation",
+      "notes": "Portable service pilot with dispatch vehicle, drone, transformer equipment, cable drums, technician pads, and inspection beacon."
+    },
+    {
+      "id": "area-map/hq-campus",
+      "type": "area-map",
+      "plannedGlb": "glb/area-map/hq-campus.glb",
+      "frontendSource": "procedural:createAreaScene(area-1-hq-campus)",
+      "notes": "HQ campus with office, command center, power yard, outpost, storage, AI agents, operators, and route motion."
+    },
+    {
+      "id": "area-map/solar-operations",
+      "type": "area-map",
+      "plannedGlb": "glb/area-map/solar-operations.glb",
+      "frontendSource": "procedural:createGeneratedAreaScene(area-2-solar-operations)",
+      "notes": "PV fields, inverter halls, data pavilion, met mast, dispatch vehicle, and inspection drone."
+    },
+    {
+      "id": "area-map/power-factory",
+      "type": "area-map",
+      "plannedGlb": "glb/area-map/power-factory.glb",
+      "frontendSource": "procedural:createGeneratedAreaScene(area-3-power-factory)",
+      "notes": "Generator hall, transformer yard, busbars, service roads, and factory operators."
+    },
+    {
+      "id": "area-map/field-service",
+      "type": "area-map",
+      "plannedGlb": "glb/area-map/field-service.glb",
+      "frontendSource": "procedural:createGeneratedAreaScene(area-4-field-service)",
+      "notes": "Outpost, vehicle bay, radio tower, dispatch staging, and service crews."
+    },
+    {
+      "id": "area-map/ai-tower",
+      "type": "area-map",
+      "plannedGlb": "glb/area-map/ai-tower.glb",
+      "frontendSource": "procedural:createGeneratedAreaScene(area-5-ai-tower)",
+      "notes": "AI command tower, model lab, drone room, ring plaza, and command crew."
+    },
+    {
+      "id": "area-map/storage-microgrid",
+      "type": "area-map",
+      "plannedGlb": "glb/area-map/storage-microgrid.glb",
+      "frontendSource": "procedural:createGeneratedAreaScene(area-6-storage-microgrid)",
+      "notes": "Battery racks, microgrid control shelter, service outpost, cooling fans, and storage crew."
+    },
+    {
+      "id": "interior/control-room",
+      "type": "interior",
+      "plannedGlb": "glb/interior/control-room.glb",
+      "glbPath": "glb/interior/control-room.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=control)",
+      "notes": "Command room with topology wall, KPI wall, status pillars, workstations, AI agents, human operators, and inspection drone."
+    },
+    {
+      "id": "interior/hq-floor",
+      "type": "interior",
+      "plannedGlb": "glb/interior/hq-floor.glb",
+      "glbPath": "glb/interior/hq-floor.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=hq)",
+      "notes": "HQ briefing floor with command wall, decision table, workstation clusters, identity core, and executive live-map table."
+    },
+    {
+      "id": "interior/office-floor",
+      "type": "interior",
+      "plannedGlb": "glb/interior/office-floor.glb",
+      "glbPath": "glb/interior/office-floor.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=office)",
+      "notes": "Office floor with workstation neighborhoods, quiet meeting room, KPI wall, screen wall, and schedule/rest pod."
+    },
+    {
+      "id": "interior/factory-bay",
+      "type": "interior",
+      "plannedGlb": "glb/interior/factory-bay.glb",
+      "glbPath": "glb/interior/factory-bay.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=factory)",
+      "notes": "Factory control bay with machine cells, overhead busbar, diagnostic panels, operator station, and maintenance cart."
+    },
+    {
+      "id": "interior/outpost-dispatch",
+      "type": "interior",
+      "plannedGlb": "glb/interior/outpost-dispatch.glb",
+      "glbPath": "glb/interior/outpost-dispatch.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=outpost)",
+      "notes": "Field dispatch room with counter, route status map, rover bay, drone ready ring, and standby drone."
+    },
+    {
+      "id": "interior/tower-floor",
+      "type": "interior",
+      "plannedGlb": "glb/interior/tower-floor.glb",
+      "glbPath": "glb/interior/tower-floor.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=tower)",
+      "notes": "AI tower floor with model core, inference rings, observation bench, screen wall, and workstation bank."
+    },
+    {
+      "id": "interior/storage-room",
+      "type": "interior",
+      "plannedGlb": "glb/interior/storage-room.glb",
+      "glbPath": "glb/interior/storage-room.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=storage)",
+      "notes": "Storage operations room with battery rack rows, thermal console, status lights, and command wall."
+    },
+    {
+      "id": "interior/solar-control-room",
+      "type": "interior",
+      "plannedGlb": "glb/interior/solar-control-room.glb",
+      "glbPath": "glb/interior/solar-control-room.glb",
+      "status": "validated-integrated",
+      "frontendSource": "createInsideScene(kind=solar)",
+      "notes": "Solar diagnostics room with PV table rows, inverter rack, diagnostic wall, and command screens."
+    },
+    {
+      "id": "agent-props/ai-agent",
+      "type": "agent-props",
+      "plannedGlb": "glb/agent-props/ai-agent.glb",
+      "glbPath": "glb/agent-props/ai-agent.glb",
+      "status": "validated-integrated",
+      "frontendSource": "addAIAgent",
+      "notes": "Q-style AI operator with visor, halo, compute pack, wrist display, and route animation."
+    },
+    {
+      "id": "agent-props/operator-human",
+      "type": "agent-props",
+      "plannedGlb": "glb/agent-props/operator-human.glb",
+      "glbPath": "glb/agent-props/operator-human.glb",
+      "status": "validated-integrated",
+      "frontendSource": "addHumanOperator",
+      "notes": "Human-like operator variants for standing, walking, working, and resting poses."
+    },
+    {
+      "id": "agent-props/inspection-drone",
+      "type": "agent-props",
+      "plannedGlb": "glb/agent-props/inspection-drone.glb",
+      "glbPath": "glb/agent-props/inspection-drone.glb",
+      "status": "validated-integrated",
+      "frontendSource": "addInspectionDrone/addAnimatedDroneRoute",
+      "notes": "Four-rotor inspection drone with scan light and animated patrol path."
+    },
+    {
+      "id": "overlay-props/status-ring-and-labels",
+      "type": "overlay-props",
+      "plannedGlb": null,
+      "frontendSource": "procedural:createZoneLabel/addRuntimeZone",
+      "notes": "Stay frontend-owned because they respond to live status, click state, and day/night readability."
+    }
+  ]
+}
